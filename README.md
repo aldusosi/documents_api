@@ -1,4 +1,6 @@
-# documents_api**POSTGRES SQL;**
+# documents_api
+
+**POSTGRES SQL;**
 
 **TABELA** documents; 
 
@@ -26,7 +28,7 @@ id serial primary key not null,
 
 **API REST;**
 
-POST/documents
+**POST**/documents
 
 recebe um objeto JSON 
 
