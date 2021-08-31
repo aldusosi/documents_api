@@ -1,5 +1,8 @@
+const knex = require("../conexao/conexao");
+
 async function criarDocumento(req, res){
-    res.json('criando documento.')
+    const documents = await knex('documents');
+    res.json(documents);
     
 }
 
